@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Request a custom cake order or make an enquiry with Letiza Bakery.">
+    <title>Letiza Bakery | Enquiry</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Letiza Bakery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Custom Cake &amp; Order Enquiry</h2>
+        <p>Fill in the form below to request a custom cake or ask about an order.</p>
+
+        <!-- Basic form structure; client-side validation to be added with JavaScript in Part 3 -->
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="order-type">What are you enquiring about?</label>
+            <select id="order-type" name="order-type">
+                <option value="cake">Custom Cake</option>
+                <option value="bulk">Bulk/Event Order</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Enquiry</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Letiza Bakery, Mokopane. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
