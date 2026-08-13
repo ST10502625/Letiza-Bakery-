@@ -1,8 +1,8 @@
 # Letiza Bakery Website
 
 ## Student Information
-- **Student Name:** Trisha [Your Surname]
-- **Student Number:** [Your Student Number]
+- **Student Name:** Karabo Trishia Marema
+- **Student Number:** ST10502625
 - **Module:** WEDE5020 – Web Design
 - **Institution:** The Independent Institute of Education (IIE)
 - **Project:** Portfolio of Evidence (POE) – Part 1
